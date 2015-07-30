@@ -14,6 +14,8 @@
 		CC7757951B69962500494AC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7757941B69962500494AC0 /* Images.xcassets */; };
 		CC7757981B69962500494AC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7757961B69962500494AC0 /* LaunchScreen.xib */; };
 		CC7757A41B69962500494AC0 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7757A31B69962500494AC0 /* FunFactsTests.m */; };
+		CCBC889B1B6A959A002FBFF9 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC889A1B6A959A002FBFF9 /* FactBook.m */; };
+		CCBC889E1B6AC72D002FBFF9 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC889D1B6AC72D002FBFF9 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		CC77579D1B69962500494AC0 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7757A21B69962500494AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7757A31B69962500494AC0 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		CCBC88991B6A959A002FBFF9 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		CCBC889A1B6A959A002FBFF9 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		CCBC889C1B6AC72D002FBFF9 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		CCBC889D1B6AC72D002FBFF9 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				CC77578C1B69962500494AC0 /* AppDelegate.m */,
 				CC77578E1B69962500494AC0 /* ViewController.h */,
 				CC77578F1B69962500494AC0 /* ViewController.m */,
+				CCBC88991B6A959A002FBFF9 /* FactBook.h */,
+				CCBC889A1B6A959A002FBFF9 /* FactBook.m */,
+				CCBC889C1B6AC72D002FBFF9 /* ColorWheel.h */,
+				CCBC889D1B6AC72D002FBFF9 /* ColorWheel.m */,
 				CC7757911B69962500494AC0 /* Main.storyboard */,
 				CC7757941B69962500494AC0 /* Images.xcassets */,
 				CC7757961B69962500494AC0 /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				CC7757901B69962500494AC0 /* ViewController.m in Sources */,
 				CC77578D1B69962500494AC0 /* AppDelegate.m in Sources */,
+				CCBC889B1B6A959A002FBFF9 /* FactBook.m in Sources */,
 				CC77578A1B69962500494AC0 /* main.m in Sources */,
+				CCBC889E1B6AC72D002FBFF9 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				CC7757A91B69962500494AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC7757AA1B69962500494AC0 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				CC7757AC1B69962500494AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
